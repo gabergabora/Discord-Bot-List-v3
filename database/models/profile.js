@@ -5,6 +5,6 @@ let hm = new mongoose.Schema({
     type: String,
     default: null
   }
-});
+});       
 
 module.exports = mongoose.model("profiles", hm);
